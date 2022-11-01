@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/hamburger.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <a href="#" class="logo-logo">Logos</a>
+        <div class="logocont">
+          <a href="#" class="link">ABOUT ME</a>
+          <a href="#" class="link">WORKS</a>
+          <a href="#" class="link">CONTACT ME</a>
+          <a href="#" class="link">FOLLOW ME</a>
+        </div>
+        <button class="hamburger hamburger--collapse" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+      <div class="wrap">
+        <!-- <img
+        srcset="
+          img/tiger-2000.jpg 2000w,
+          img/tiger-1500.jpg 1500w,
+          img/tiger-1000.jpg 1000w,
+          img/tiger-500.jpg   500w
+        "
+        sizes="(min-width: 2800px) 1500px,
+        (min-width: 1800px) 1000px,
+        500px
+        "
+        class="res-image"
+        src="img/tiger-500.jpg"
+        alt=""
+      /> -->
+
+        <!-- <img
+        srcset="img/man_on_railway_wide.jpg 1000w, img/man_on_railway.jpg 500w"
+        src="img/man_on_railway_wide.jpg"
+        alt=""
+        class="res-image"
+      /> -->
+        <!-- <picture>
+        <source srcset="img/tiger-1000.webp" media="(min-width: 800px)" type="image/webp">
+        <source srcset="img/tiger-500.webp" type="image/webp">
+        <img class="res-image" src="img/tiger-500.jpg" alt="">
+      </picture> -->
+        <div class="picture col-2">
+          <picture>
+            <source
+              srcset="img/main-banner-large.jpg"
+              media="(min-width: 1200px)"
+            />
+            <img src="/img/img1.png" class="img-wrap-1 span-2" alt="" />
+          </picture>
+          <span class="span">News banner text preview</span>
+        </div>
+        <div class="picture">
+          <picture>
+            <source srcset="img/pic1-large.jpg" media="(min-width: 1200px)" />
+            <img src="/img/img3.png" class="img-wrap" alt="" />
+          </picture>
+          <div class="span-3">
+            <span class="text">PRODUCT 1</span
+            ><a class="img-icon" href="#"
+              ><img class="img-icon-1" src="img/icon1.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="picture">
+          <picture>
+            <source srcset="img/pic2-large.jpg" media="(min-width: 1200px)" />
+            <img src="/img/img4.png" class="img-wrap" alt="" />
+          </picture>
+          <div class="span-3">
+            <span class="text">PRODUCT 1</span
+            ><a class="img-icon" href="#"
+              ><img class="img-icon-1" src="img/icon1.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="picture">
+          <picture>
+            <source srcset="img/pic3-large.jpg" media="(min-width: 1200px)" />
+            <img src="/img/img5.png" class="img-wrap" alt="" />
+          </picture>
+          <div class="span-3">
+            <span class="text">PRODUCT 1</span
+            ><a class="img-icon" href="#"
+              ><img class="img-icon-1" src="img/icon1.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="picture">
+          <picture>
+            <source srcset="img/pic4-large.jpg" media="(min-width: 1200px)" />
+            <img src="/img/img6.png" class="img-wrap" alt="" />
+          </picture>
+          <div class="span-3">
+            <span class="text">PRODUCT 1</span
+            ><a class="img-icon" href="#"
+              ><img class="img-icon-1" src="img/icon1.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="picture">
+          <picture>
+            <source srcset="img/pic5-large.jpg" media="(min-width: 1200px)" />
+            <img src="/img/img7.png" class="img-wrap" alt="" />
+          </picture>
+          <div class="span-3">
+            <span class="text">PRODUCT 1</span
+            ><a class="img-icon" href="#"
+              ><img class="img-icon-1" src="img/icon1.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="picture">
+          <picture>
+            <source srcset="img/pic6-large.jpg" media="(min-width: 1200px)" />
+            <img src="/img/img2.png" class="img-wrap" alt="" />
+          </picture>
+          <div class="span-3">
+            <span class="text">PRODUCT 1</span
+            ><a class="img-icon" href="#"
+              ><img class="img-icon-1" src="img/icon1.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Look for .hamburger
+      var hamburger = document.querySelector(".hamburger");
+      var logo = document.querySelector(".logocont");
+      // On click
+      hamburger.addEventListener("click", function () {
+        // Toggle class "is-active"
+        hamburger.classList.toggle("is-active");
+        logo.classList.toggle("is-active");
+        // Do something else, like open/close menu
+      });
+    </script>
+  </body>
+</html>
